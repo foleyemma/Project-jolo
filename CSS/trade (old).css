@@ -1,0 +1,44 @@
+body{
+    background-image: url(/images/Background\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    font-family: General Sans;
+}
+header{
+    border-radius: 5px;
+background: linear-gradient(142deg, #151515 0%, rgba(3, 3, 3, 0.20) 100%);
+box-shadow: 0px 5px 15px 0px rgba(12, 12, 12, 0.20);
+backdrop-filter: blur(7.5px);
+z-index: -1;
+  }
+#frame-1{
+    background: linear-gradient(142deg, #1A1919 0%, rgba(3, 3, 3, 0.20) 100%);
+
+}
+h2{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.70);
+}
+#list-1{
+    color: rgba(255, 255, 255, 0.70);
+}
+#liquidity-old{
+    background-color: rgba(255, 255, 255, 0.10);
+}
+#frame-2{
+    background: linear-gradient(142deg, #1A1919 0%, rgba(3, 3, 3, 0.20) 100%);
+}
+#graph{
+    color: rgba(255, 255, 255, 0.70);
+}
+#first-half{
+    background: linear-gradient(142deg, #1A1919 0%, rgba(3, 3, 3, 0.20) 100%);
+}
+#second-half{
+    background: linear-gradient(142deg, #1A1919 0%, rgba(3, 3, 3, 0.20) 100%);
+}

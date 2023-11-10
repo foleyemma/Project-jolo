@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+    background: linear-gradient();
+  }
+  
+ #footer{
+    margin-top: 500px;
+ }
+  
+  .farm {
+    width: 100%;
+    height: 404px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: linear-gradient(142deg, #1a1919 0%, rgba(3, 3, 3, 0.2) 100%);
+    box-shadow: 0px 5px 15px 0px rgba(12, 12, 12, 0.2);
+    backdrop-filter: blur(7.5px);
+  }
+  
+  .Lottery {
+      width:  100%;
+      height: 404px;
+      flex-shrink: 0;
+      border-radius: 5px;
+      background: linear-gradient(142deg, #1A1919 0%, rgba(3, 3, 3, 0.20) 100%);
+      box-shadow: 0px 5px 15px 0px rgba(12, 12, 12, 0.20);
+      backdrop-filter: blur(7.5px);
+  }
+  .Jolo{
+      font-family: General Sans;
+  }
+  #auto{
+    border-radius: 5px;
+background: linear-gradient(142deg, #151515 0%, rgba(3, 3, 3, 0.20) 100%);
+box-shadow: 0px 5px 15px 0px rgba(12, 12, 12, 0.20);
+backdrop-filter: blur(7.5px);
+margin-right: 5rem;
+z-index: -1;
+  }
+#list2 li{
+  padding-bottom: 5px;
+}
+#list{
+  
+  transition-timing-function: ease-in;
+  transition: 0.2s;
+  z-index: 10000;
+}
+.one{
+  z-index: -1;
+}

@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/CSS/index.css" />
+    <link href="https://fonts.cdnfonts.com/css/general-sans" rel="stylesheet">
+    <title>Homepage</title>
+  </head>
+  <body>
+    <section class="bg-cover   "
+    style="background-image: url(images/Homepage.png);   ">
+      <header 
+        class="Group24 border-b-[0.5px] flex justify-between items-center p-3 sticky top-0 z-10	 "
+      >
+      <div class="flex">
+        <img class="rounded-full" src="/images/jolo-logo.png" width="65" height="65" alt="" />
+        <div class="text-white pt-3 pl-2 text-2xl">Jolo</div>
+      </div>
+
+        <menu class="navToggler">
+          <button class="md:hidden ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+              <path class="openNav" d="M28 21.3334H4V18.6667H28V21.3334ZM28 13.3334H4V10.6667H28V13.3334Z" fill="white"/>
+               xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <path class="closeNav hidden" d="M23.4532 6.66669L15.9998 14.12L8.5465 6.66669L6.6665 8.54669L14.1198 16L6.6665 23.4534L8.5465 25.3334L15.9998 17.88L23.4532 25.3334L25.3332 23.4534L17.8798 16L25.3332 8.54669L23.4532 6.66669Z" fill="white"/>
+            </svg> 
+          </button>
+
+
+          <div id="mainNav"  
+              class="  w-[100%] h-[100vh] absolute right-0 top-0  bg-stone-900 md:hidden sm:hidden flex  flex-col  ">
+
+            <div class=" justify-end flex gap-3 p-5">
+              <div class="w-[173px] h-9 px-5 py-2 bg-white rounded-[50px] justify-center items-center gap-2.5 inline-flex">
+                <div class="text-black text-base font-medium font-['General Sans'] leading-tight tracking-wide">Connect Wallet</div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+              <path d="M23.4532 6.66669L15.9998 14.12L8.5465 6.66669L6.6665 8.54669L14.1198 16L6.6665 23.4534L8.5465 25.3334L15.9998 17.88L23.4532 25.3334L25.3332 23.4534L17.8798 16L25.3332 8.54669L23.4532 6.66669Z" fill="white"/>
+            </svg>
+            </div>
+
+            <div class="flex flex-col text-right justify-between  p-5">
+              <a class="text-lg font-normal font-['General Sans'] tracking-wider text-white text-opacity-70 p-1" href="">Home</a>
+              <a class="text-lg font-normal font-['General Sans'] tracking-wider text-white text-opacity-70 p-1 " href="trade.html">Trade</a>
+              <a class="text-lg font-normal font-['General Sans'] tracking-wider text-white text-opacity-70 p-1 " href="farm.html">Farms</a>
+              <a class="text-lg font-normal font-['General Sans'] tracking-wider text-white text-opacity-70 p-1 " href="pool.html">Pools</a>
+              <a class="text-lg font-normal font-['General Sans'] tracking-wider text-white text-opacity-70 p-1 " href="prediction.html">Prediction</a>
+              <a class="text-lg font-normal font-['General Sans'] tracking-wider text-white text-opacity-70 p-1 " href="collectibles.html">Collectibles</a>
+              <div class="flex justify-end items-center gap-2 p-1">
+                <a class="text-lg font-normal font-['General Sans'] tracking-wider text-white text-opacity-70 " href="">More</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M11.9998 8.28696L5.98975 14.297L7.40275 15.712L11.9998 11.112L16.5958 15.712L18.0098 14.298L11.9998 8.28696Z" fill="white"/>
+                </svg>
+              </div>
+              
+              <a class="text-sm font-normal font-['General Sans'] tracking-wider text-white text-opacity-70 p-1" href="">Get in touch</a>
+              <a class="text-sm font-normal font-['General Sans'] tracking-wider text-white text-opacity-70 p-1" href="">Voting</a>
+              <a class="text-sm font-normal font-['General Sans'] tracking-wider text-white text-opacity-70 p-1" href="">Documents</a>
+              <a class="text-sm font-normal font-['General Sans'] tracking-wider text-white text-opacity-70 p-1" href="">Blogs</a>
+              <a class="text-sm font-normal font-['General Sans'] tracking-wider text-white text-opacity-70 p-1" href="">Merchandise</a>
+            </div>
+
+            
+              <div class="flex gap-3 justify-end overflow-y-hidden absolute bottom-0 right-0 ">
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                    <path d="M1.66846 10.5016C1.66943 14.6011 4.65047 18.0917 8.69933 18.7341V12.91H6.58512V10.5016H8.70183V8.66835C8.60717 7.79963 8.90391 6.93385 9.5115 6.3058C10.1191 5.67775 10.9746 5.35253 11.846 5.41835C12.4714 5.42846 13.0952 5.48416 13.7127 5.58502V7.63418H12.6593C12.2967 7.58669 11.9321 7.70646 11.6682 7.95974C11.4044 8.21303 11.2699 8.57242 11.3027 8.93665V10.5016H13.6118L13.2427 12.9108H11.3027V18.7341C15.6813 18.0421 18.7518 14.0431 18.2897 9.63423C17.8276 5.22532 13.9945 1.94996 9.5675 2.181C5.14042 2.41204 1.66917 6.06861 1.66846 10.5016Z" fill="white"/>
+                  </svg></a>
+    
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                    <path d="M10.8333 18H7.5V8H10.8333V9.66667C11.5438 8.76271 12.6213 8.22381 13.7708 8.1975C15.838 8.20898 17.506 9.89117 17.5 11.9583V18H14.1667V12.375C14.0333 11.4438 13.2348 10.753 12.2942 10.755C11.8827 10.768 11.4943 10.9482 11.2187 11.2538C10.943 11.5596 10.8038 11.9644 10.8333 12.375V18ZM5.83333 18H2.5V8H5.83333V18ZM4.16667 6.33333C3.24619 6.33333 2.5 5.58714 2.5 4.66667C2.5 3.74619 3.24619 3 4.16667 3C5.08714 3 5.83333 3.74619 5.83333 4.66667C5.83333 5.10869 5.65774 5.53262 5.34517 5.84517C5.03262 6.15774 4.60869 6.33333 4.16667 6.33333Z" fill="white"/>
+                  </svg></a>  
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                    <path d="M16.6625 6.07331C17.4095 5.62671 17.9685 4.92351 18.235 4.09497C17.5331 4.51147 16.765 4.80487 15.9642 4.96247C14.8538 3.78791 13.0946 3.50207 11.6695 4.26468C10.2444 5.02729 9.50624 6.64955 9.86749 8.22497C6.99218 8.08061 4.31331 6.7224 2.49751 4.48831C1.54988 6.12282 2.03414 8.21229 3.60418 9.26331C3.03644 9.24506 2.48128 9.09131 1.98501 8.81497C1.98501 8.82997 1.98501 8.84498 1.98501 8.85998C1.98534 10.5626 3.18532 12.0292 4.85418 12.3666C4.32756 12.5099 3.77518 12.531 3.23918 12.4283C3.70851 13.8844 5.05047 14.8819 6.58001 14.9116C5.3132 15.9059 3.74874 16.4451 2.13835 16.4425C1.8529 16.4429 1.56769 16.4265 1.28418 16.3933C2.9195 17.4441 4.82282 18.0019 6.76668 18C9.47108 18.0186 12.07 16.9524 13.9822 15.04C15.8945 13.1276 16.9605 10.5285 16.9417 7.82414C16.9417 7.66914 16.9381 7.51497 16.9308 7.36164C17.6312 6.85547 18.2357 6.22843 18.7158 5.50997C18.0633 5.79919 17.3712 5.98907 16.6625 6.07331Z" fill="white"/>
+                  </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                    <path d="M10.0048 16.3434H9.98817C9.93651 16.3434 4.76734 16.3334 3.46317 15.9792C2.74603 15.786 2.18597 15.2256 1.99317 14.5084C1.75866 13.1854 1.64542 11.8436 1.65484 10.5C1.64878 9.15419 1.7651 7.81061 2.00234 6.48585C2.20043 5.76795 2.75803 5.20498 3.47401 5.00002C4.74234 4.66669 9.76901 4.66669 9.98234 4.66669H9.99984C10.0523 4.66669 15.2348 4.67669 16.5257 5.03085C17.2413 5.22503 17.8003 5.78427 17.994 6.50002C18.236 7.82797 18.3496 9.1761 18.3332 10.5259C18.339 11.87 18.2224 13.2119 17.9848 14.535C17.7896 15.2514 17.2292 15.8105 16.5123 16.0042C15.2457 16.34 10.2182 16.3434 10.0048 16.3434ZM8.33817 8.00419L8.33401 13.0042L12.6773 10.5042L8.33817 8.00419Z" fill="white"/>
+                  </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                    <path d="M10.0218 2.16669C5.94428 2.16616 2.46835 5.12335 1.81551 9.14827C1.16266 13.1733 3.52567 17.0775 7.39434 18.3659C7.81101 18.4409 7.96018 18.185 7.96018 17.965C7.96018 17.7675 7.95351 17.2442 7.95101 16.5484C5.63851 17.0484 5.15018 15.4334 5.15018 15.4334C4.99793 14.9309 4.67065 14.4994 4.22768 14.2175C3.47768 13.7017 4.28518 13.7134 4.28518 13.7134C4.81907 13.7865 5.28897 14.1029 5.55768 14.57C5.78512 14.9836 6.1683 15.2892 6.62209 15.4189C7.07588 15.5486 7.56269 15.4917 7.97434 15.2609C8.01303 14.8392 8.20062 14.4451 8.50349 14.1492C6.65851 13.94 4.71851 13.2267 4.71851 10.0409C4.70827 9.21685 5.01425 8.42027 5.57351 7.81502C5.32047 7.09778 5.35027 6.31106 5.65684 5.61502C5.65684 5.61502 6.35434 5.39085 7.94184 6.46585C9.30341 6.09253 10.7403 6.09253 12.1018 6.46585C13.6902 5.39002 14.3868 5.61502 14.3868 5.61502C14.6948 6.31074 14.7247 7.098 14.4702 7.81502C15.0315 8.42021 15.3372 9.21885 15.3235 10.0442C15.3235 13.2384 13.3818 13.94 11.5302 14.1459C11.9296 14.5543 12.1345 15.1144 12.0927 15.6842C12.0927 16.7959 12.0827 17.6925 12.0827 17.965C12.0827 18.1875 12.231 18.4459 12.6552 18.3642C16.5222 17.0737 18.8827 13.1692 18.2285 9.14527C17.5743 5.1214 14.0986 2.16575 10.0218 2.16669Z" fill="white"/>
+                  </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                    <path d="M16.3542 18.8333L14.6525 17.3333L13.6933 16.4417L12.6792 15.5L13.0958 16.9658H4.12251C3.22386 16.9626 2.49771 16.232 2.50001 15.3333V4.63083C2.49862 3.73282 3.22451 3.00322 4.12251 3H14.7317C15.6297 3.00322 16.3556 3.73282 16.3542 4.63083V18.8333ZM12.5833 11.7567C12.232 12.2279 11.7261 12.5607 11.1542 12.6967C11.3892 12.9967 11.6725 13.3358 11.675 13.3392C12.6309 13.3593 13.5361 12.9098 14.0975 12.1358C14.0687 10.5314 13.6791 8.95408 12.9575 7.52083C12.3222 7.02231 11.5488 6.73136 10.7425 6.6875H10.7333L10.6225 6.81417C11.3427 7.00763 12.0144 7.35 12.5942 7.81917C11.8565 7.41368 11.0471 7.15554 10.2108 7.05917C9.67933 7.00014 9.14275 7.00545 8.6125 7.075C8.575 7.07574 8.53766 7.07964 8.50083 7.08667H8.4775C7.85613 7.15821 7.24985 7.32693 6.68084 7.58667C6.39584 7.7175 6.22084 7.8125 6.21334 7.81583C6.20584 7.81917 6.21334 7.81583 6.21334 7.81C6.82825 7.32637 7.53765 6.97692 8.29584 6.78417L8.2125 6.68917H8.20751C7.40117 6.73313 6.62786 7.02407 5.99251 7.5225C5.26826 8.95475 4.87847 10.5328 4.85251 12.1375C5.40696 12.9166 6.31334 13.3679 7.26917 13.3408C7.26917 13.3408 7.56751 12.9775 7.8 12.6833C7.24251 12.5433 6.75127 12.2132 6.41084 11.75C6.41667 11.7542 6.49917 11.81 6.63251 11.8833C6.64146 11.8938 6.65254 11.9024 6.66501 11.9083C6.67556 11.9157 6.68671 11.9221 6.69834 11.9275C6.71152 11.9335 6.72408 11.9408 6.73584 11.9492C6.92176 12.0517 7.11475 12.1408 7.31334 12.2158C7.6909 12.3653 8.08145 12.4797 8.48 12.5575C8.829 12.6233 9.18325 12.6568 9.53833 12.6575C9.87125 12.6575 10.2035 12.6268 10.5308 12.5658C10.9251 12.4966 11.3101 12.3825 11.6783 12.2258C11.9965 12.1035 12.3 11.9461 12.5833 11.7567ZM10.885 11.4008C10.5224 11.4324 10.1777 11.2382 10.0167 10.9118C9.85591 10.5854 9.91183 10.1937 10.1577 9.92533C10.4037 9.65708 10.7891 9.56725 11.1282 9.69917C11.4674 9.83108 11.6908 10.1578 11.6908 10.5217C11.7092 10.9866 11.349 11.3793 10.8842 11.4008H10.885ZM7.99501 11.4008C7.53905 11.3611 7.18914 10.9793 7.18914 10.5217C7.18914 10.064 7.53905 9.68225 7.99501 9.6425C8.20505 9.64317 8.40583 9.72883 8.55166 9.88C8.71716 10.0518 8.80716 10.2824 8.80166 10.5208C8.821 10.9866 8.45983 11.3801 7.99417 11.4008H7.99501Z" fill="white"/>
+                  </svg></a>
+                
+            </div>
+            
+            
+          </div>
+
+           
+
+          <div class=" sm:hidden md:block   ">
+  
+           
+            <div class="flex h-5 justify-start items-start gap-5  ">
+              <ul>
+                <li>
+                  <a
+                    class="hover:text-white hover hover:border-b-4 text-white text-opacity-70 text-sm font-normal font-['General Sans'] leading-tight py-6"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <a
+                    class="hover:text-white hover hover:border-b-4 text-white text-opacity-70 text-sm font-normal font-['General Sans'] leading-tight py-6"
+                    href="trade.html"
+                    >Trade</a
+                  >
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <a
+                    class="hover:text-white hover hover:border-b-4 text-white text-opacity-70 text-sm font-normal font-['General Sans'] leading-tight py-6"
+                    href="farm.html"
+                    >Farms</a
+                  >
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <a
+                    class="hover:text-white hover hover:border-b-4 text-white text-opacity-70 text-sm font-normal font-['General Sans'] leading-tight py-6"
+                    href="pool.html"
+                    >Pools</a
+                  >
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <a
+                    class="hover:text-white hover hover:border-b-4 text-white text-opacity-70 text-sm font-normal font-['General Sans'] leading-tight py-6"
+                    href="prediction.html"
+                    >Prediction</a
+                  >
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <a
+                    class="hover:text-white hover hover:border-b-4 text-white text-opacity-70 text-sm font-normal font-['General Sans'] leading-tight py-6"
+                    href="collectibles.html"
+                    >Collectibles</a
+                  >
+                </li>
+     
+              </ul>
+              <div class="flex items-center gap-2">
+                <ul>
+                  <li>
+                    <a
+                      class="hover:text-white hover hover:border-b-4 text-white text-opacity-70 text-sm font-normal font-['General Sans'] leading-tight tracking-wide py-6"
+                      href=""
+                      >More
+                    </a>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <a
+                      class="hover:text-white hover hover:border-b-4 text-white text-opacity-70 text-sm font-normal font-['General Sans'] leading-tight tracking-wide"
+                      href=""
+                      ><svg
+                        class="self-center"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="1em"
+                        viewBox="0 0 512 512"
+                      >
+                        <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <style>
+                          svg {
+                            fill: #ffffff;
+                          }
+                        </style>
+                        <path
+                          d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+    
+              <button class="pick ">
+                <div
+                class=" w-[173px] h-9 px-5 py-2 bg-white rounded-[50px] justify-center items-center gap-2.5 inline-flex"
+              >
+                <p
+                  class=" text-black text-base font-medium font-['General Sans'] leading-tight tracking-wide"
+                  href=""
+                  >Connect Wallet</p
+                >
+    
+              </div>
+              </button>
+            </div>
+           
+  
+            
+          </div>
+        </menu>
+       
+      </header>
+
+      <div id="pack" class="hidden z-20  w-[603px] h-[514px]  bg-stone-900 rounded-[5px] left-[30%] fixed ">
+
+        <div class="flex justify-between p-4">
+          <div class="flex gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+              <path d="M26.6665 26.6667H5.33317C3.86041 26.6667 2.6665 25.4728 2.6665 24V7.99999C2.6665 6.52723 3.86041 5.33333 5.33317 5.33333H26.6665C28.1393 5.33333 29.3332 6.52723 29.3332 7.99999V24C29.3332 25.4728 28.1393 26.6667 26.6665 26.6667ZM5.33317 7.99999V24H26.6665V7.99999H5.33317ZM20.6665 21.3333C18.8256 21.3333 17.3332 19.8409 17.3332 18C17.3332 16.1591 18.8256 14.6667 20.6665 14.6667C22.5074 14.6667 23.9998 16.1591 23.9998 18C23.9998 18.884 23.6486 19.7319 23.0236 20.3571C22.3984 20.9821 21.5505 21.3333 20.6665 21.3333ZM15.3332 21.3333C13.4922 21.3333 11.9998 19.8409 11.9998 18C11.9998 16.1591 13.4922 14.6667 15.3332 14.6667C16.0569 14.6672 16.7601 14.9073 17.3332 15.3493C16.4949 15.9721 16.0006 16.9549 16.0006 17.9993C16.0006 19.0437 16.4949 20.0265 17.3332 20.6493C16.7602 21.0919 16.057 21.3324 15.3332 21.3333Z" fill="white"/>
+            </svg>
+
+            <p class="text-white text-2xl font-semibold font-['General Sans'] tracking-widest">Connect to a wallet</p>
+          </div>
+
+          <div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41L17.59 5Z" fill="#F74242"/>
+          </svg></div>
+        </div>
+
+        <div class="flex grid grid-cols-3 gap-3 p-5">
+          <div class="w-[165px] h-[150px] bg-neutral-950 rounded-[5px] ">
+            <figure class="grid justify-items-center	mt-5">
+              <img src="images/meta.png" alt="">
+              <figcaption class="text-white text-sm font-medium font-['General Sans'] leading-tight tracking-wide">Metamask</figcaption>
+            </figure>
+          </div>
+          <div class="w-[165px] h-[150px] bg-neutral-950 rounded-[5px]">
+            <figure class="grid justify-items-center	mt-5">
+              <img src="images/Trust wallet.png" alt="">
+              <figcaption class="text-white text-sm font-medium font-['General Sans'] leading-tight tracking-wide">TrustWallet</figcaption>
+            </figure>
+          </div>
+          <div class="w-[165px] h-[150px] bg-neutral-950 rounded-[5px]">
+            <figure class="grid justify-items-center	mt-5">
+              <img src="images/Math Wallet.png" alt="">
+              <figcaption class="text-white text-sm font-medium font-['General Sans'] leading-tight tracking-wide">MathWallet</figcaption>
+            </figure>
+          </div>
+          <div class="w-[165px] h-[150px] bg-neutral-950 rounded-[5px]">
+            <figure class="grid justify-items-center	mt-5">
+              <img src="images/Token Pocket.png" alt="">
+              <figcaption class="text-white text-sm font-medium font-['General Sans'] leading-tight tracking-wide">TokenPocket</figcaption>
+            </figure>
+          </div>
+          <div class="w-[165px] h-[150px] bg-neutral-950 rounded-[5px]">
+            <figure class="grid justify-items-center	mt-5">
+              <img src="images/Wallet Connect.png" alt="">
+              <figcaption class="text-white text-sm font-medium font-['General Sans'] leading-tight tracking-wide">WalletConnect</figcaption>
+            </figure>
+          </div>
+          <div class="w-[165px] h-[150px] bg-neutral-950 rounded-[5px]">
+            <figure class="grid justify-items-center	mt-5">
+              <img src="images/Binance Chain.png" alt="">
+              <figcaption class="text-white text-sm font-medium font-['General Sans'] leading-tight tracking-wide">Binance Chain</figcaption>
+            </figure>
+          </div>
+        </div>
+        
+          <div class="p-5">
+            <span class="text-white text-opacity-70 text-sm font-normal font-['General Sans'] leading-normal tracking-wide">By connecting your wallet, you agree to our</span> <span class="text-white text-sm font-medium font-['General Sans'] leading-normal tracking-wide">Terms of Service</span> <span class="text-white text-opacity-70 text-sm font-normal font-['General Sans'] leading-normal tracking-wide">and <br> our </span><span class="text-white text-sm font-medium font-['General Sans'] leading-normal tracking-wide">Privacy Policy.</span> 
+          </div>
+
+      </div>
+
+    <section class="body pl-10  pr-10 pt-10  	">
+        <section class="pb-5 z-10 ">
+            <div class="one w-[100%] flex gap-5 grid sm:grid-cols-1 md:grid-cols-2  ">
+              <div class="w-[50%] md:w-[100%] sm:w-[100%]  ">
+                <div
+                  class=" farm flex flex-col justify-around pl-5"
+                >
+                  <span>
+                    <p class="text-white text-2xl font-semibold font-['General Sans'] tracking-widest">Farms & Staking</p>
+                    <p class="w-56 text-white text-opacity-70 text-sm font-normal font-['General Sans'] leading-tight tracking-wide">Donec volutpat pulvinar elem.</p>
+                    
+                  </span>
+    
+                  <span class="flex flex-col justify-between gap-3">
+                    <p class="text-white text-sm font-normal font-['General Sans'] leading-tight tracking-wide">Ruby to Harvest</p>
+                    <div class="flex justify-between w-[33%]">
+                      <p class="text-white text-xl font-medium font-['General Sans'] tracking-wide">0.000</p>
+                      <p class="text-white text-opacity-70 text-base font-normal font-['General Sans'] leading-tight tracking-wide">~$0.00</p>
+                    </div>
+                    <p class="text-white text-sm font-normal font-['General Sans'] leading-tight tracking-wide">Ruby in wallet</p>
+    
+                    <div class="flex justify-between w-[30%]">
+                      <p class="text-white text-xl font-medium font-['General Sans'] tracking-wide">0.000</p>
+                      <p class="text-white text-opacity-70 text-base font-normal font-['General Sans'] leading-tight tracking-wide">~$0.00</p>
+                    </div>
+                  </span>
+    
+                  <button class="harvest w-[232px] h-9 px-5 py-2 bg-rose-600 rounded-[50px] justify-center items-center gap-2.5 inline-flex hover:bg-white hover:bg-opacity-30">
+                    <p class="text-white text-base font-medium font-['General Sans'] leading-tight tracking-wide hover:text-opacity-50 "  href="">Harvest All (0)</p>
+                  </button>
+
+
+             
+
+                  <img src="images/diamond.png" alt="" class="absolute right-0 top-[10%] z10">
+                </div>
+        
+              </div>
+    
+              <div class="w-[50%] md:w-[100%] sm:w-[100%]   ">
+                <div
+                  class=" Lottery flex flex-col justify-around pl-5 "
+                >
+                  <span class="gap-3 flex flex-col">
+                    <p class="text-white text-2xl font-semibold font-['General Sans'] tracking-widest">Your Lottery Winnings</p>
+                    <p class="w-[306px] text-white text-opacity-70 text-sm font-normal font-['General Sans'] leading-tight tracking-wide">Sed nullam viverra fusce id at amet.</p>
+                  </span>
+    
+                  <span class="flex flex-col justify-between gap-3">
+                    <p class="text-white text-sm font-normal font-['General Sans'] leading-tight tracking-wide">Ruby to Collect</p>
+                    <div class="flex justify-between w-[30%]">
+                      <p class="text-white text-xl font-medium font-['General Sans'] tracking-wide">0.000</p>
+                      <p class="text-white text-opacity-70 text-base font-normal font-['General Sans'] leading-tight tracking-wide">~$0.00</p>
+                    </div>
+                    <p class="text-white text-sm font-normal font-['General Sans'] leading-tight tracking-wide">Total Jackpot this Round</p>
+    
+                    <p class="text-white text-sm font-normal font-['General Sans'] leading-tight tracking-wide">Comming Soon</p>
+                  </span>
+    
+                  <div class="flex justify-between w-[90%]">
+                    <div class="w-[230px] h-9 px-5 py-2 bg-rose-600 hover:bg-white hover:bg-opacity-30 rounded-[50px] justify-center items-center gap-2.5 inline-flex">
+                      <a class="text-white hover:text-opacity-50  text-base font-medium font-['General Sans'] leading-tight tracking-wide" href="">Collect Winnings</a>
+                    </div>
+                    <button class="w-[215px] h-9 px-5 py-2 bg-rose-600 hover:bg-white hover:bg-opacity-30 rounded-[50px] justify-center items-center gap-2.5 inline-flex">
+                      <p class="ruby text-white text-base hover:text-opacity-50 font-medium font-['General Sans'] leading-tight tracking-wide" href="">Approve Ruby</p>
+                    </button>
+                  </div>
+                  <img src="images/Asset 1 2 1.png" alt="" class="absolute right-0 top-[10%] z-10">
+                </div>
+              </div>
+            </div>
+    
+           
+          </section>
+
+
+
+          <div class="holdTight hidden z-50 fixed left-[30%] top-[30%] w-[474px] h-[265px] p-[30px] bg-stone-900 rounded-[5px] flex-col justify-center items-start gap-[30px] inline-flex">
+            <div class="self-stretch justify-start items-center gap-2.5 inline-flex">
+                <div class="w-8 h-8 relative">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <path d="M31 19.9998C30.448 19.9998 30 20.4478 30 20.9998V27.9998H2V15.9998H13C13.552 15.9998 14 15.5518 14 14.9998C14 14.4478 13.552 13.9998 13 13.9998H2V9.99979H13C13.552 9.99979 14 9.55179 14 8.99979C14 8.44779 13.552 7.99979 13 7.99979H2C0.896 7.99979 0 8.89579 0 9.99979V27.9998C0 29.1038 0.896 29.9998 2 29.9998H30C31.104 29.9998 32 29.1038 32 27.9998V20.9998C32 20.4478 31.552 19.9998 31 19.9998Z" fill="#21CD47"/>
+                        <path d="M9 19.9998H5C4.448 19.9998 4 20.4478 4 20.9998C4 21.5518 4.448 21.9998 5 21.9998H9C9.552 21.9998 10 21.5518 10 20.9998C10 20.4478 9.552 19.9998 9 19.9998Z" fill="#21CD47"/>
+                        <path d="M31.394 5.07971L24.394 2.07971C24.14 1.97371 23.858 1.97371 23.604 2.07971L16.604 5.07971C16.238 5.23771 16 5.59971 16 5.99971V9.99971C16 15.5017 18.034 18.7177 23.502 21.8677C23.656 21.9557 23.828 21.9997 24 21.9997C24.172 21.9997 24.344 21.9557 24.498 21.8677C29.966 18.7257 32 15.5097 32 9.99971V5.99971C32 5.59971 31.762 5.23771 31.394 5.07971ZM30 9.99971C30 14.6177 28.472 17.1597 24 19.8397C19.528 17.1537 18 14.6117 18 9.99971V6.65971L24 4.08771L30 6.65971V9.99971Z" fill="#21CD47"/>
+                        <path d="M27.6258 8.21774C27.1958 7.87774 26.5678 7.94374 26.2198 8.37374L23.0758 12.3057L21.8318 10.4457C21.5218 9.98574 20.8998 9.86374 20.4458 10.1677C19.9878 10.4737 19.8618 11.0957 20.1678 11.5537L22.1678 14.5537C22.3458 14.8197 22.6378 14.9837 22.9578 14.9997C22.9718 14.9997 22.9878 14.9997 22.9998 14.9997C23.3018 14.9997 23.5898 14.8637 23.7818 14.6237L27.7818 9.62374C28.1258 9.19174 28.0578 8.56374 27.6258 8.21774Z" fill="#21CD47"/>
+                      </svg>
+                </div>
+                <div class="text-white text-2xl font-semibold font-['General Sans'] tracking-widest">Payment confirmed</div>
+            </div>
+            <div class="w-[414px] grow shrink basis-0 relative">
+                <div class="w-[414px] h-[50px] left-0 top-[35px] absolute text-white text-opacity-70 text-sm font-normal font-['General Sans'] leading-normal tracking-wide">Congratulations! Your payment for Harvest is confirmed and the RUBY will now be reflected in your wallet.</div>
+                <div class="left-0 top-0 absolute text-white text-base font-medium font-['General Sans'] leading-tight tracking-wide">Your payment is Confirmed!</div>
+            </div>
+            <div class="flex justify-center items-center gap-2">
+              <div class="w-7 h-7 p-[2.33px] justify-center items-center inline-flex"><img src="images/793527959d53dd58d5fdd7ac8fd3b1b6.gif" alt=""></div>
+              <div class="text-white text-opacity-50 text-xs font-normal font-['General Sans'] tracking-wide">Authenticating with Metamask Wallet</div>
+            </div>
+            
+        </div>
+      
+        <div class=" z-50 fixed left-[30%] top-[30%] hidden w-[474px] h-[265px] p-[30px] bg-stone-900 rounded-[5px] flex-col justify-center items-start gap-[30px] inline-flex">
+          <div class="self-stretch justify-start items-center gap-2.5 inline-flex">
+              <div class="w-8 h-8 relative"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <path d="M31 19.9998C30.448 19.9998 30 20.4478 30 20.9998V27.9998H2V15.9998H13C13.552 15.9998 14 15.5518 14 14.9998C14 14.4478 13.552 13.9998 13 13.9998H2V9.99978H13C13.552 9.99978 14 9.55178 14 8.99978C14 8.44778 13.552 7.99978 13 7.99978H2C0.896 7.99978 0 8.89578 0 9.99978V27.9998C0 29.1038 0.896 29.9998 2 29.9998H30C31.104 29.9998 32 29.1038 32 27.9998V20.9998C32 20.4478 31.552 19.9998 31 19.9998Z" fill="#21CD47"/>
+                <path d="M9 19.9998H5C4.448 19.9998 4 20.4478 4 20.9998C4 21.5518 4.448 21.9998 5 21.9998H9C9.552 21.9998 10 21.5518 10 20.9998C10 20.4478 9.552 19.9998 9 19.9998Z" fill="#21CD47"/>
+                <path d="M31.394 5.07973L24.394 2.07973C24.14 1.97373 23.858 1.97373 23.604 2.07973L16.604 5.07973C16.238 5.23773 16 5.59973 16 5.99973V9.99973C16 15.5017 18.034 18.7177 23.502 21.8677C23.656 21.9557 23.828 21.9997 24 21.9997C24.172 21.9997 24.344 21.9557 24.498 21.8677C29.966 18.7257 32 15.5097 32 9.99973V5.99973C32 5.59973 31.762 5.23773 31.394 5.07973ZM30 9.99973C30 14.6177 28.472 17.1597 24 19.8397C19.528 17.1537 18 14.6117 18 9.99973V6.65973L24 4.08772L30 6.65973V9.99973Z" fill="#21CD47"/>
+                <path d="M27.6258 8.21775C27.1958 7.87775 26.5678 7.94375 26.2198 8.37375L23.0758 12.3057L21.8318 10.4458C21.5218 9.98575 20.8998 9.86375 20.4458 10.1678C19.9878 10.4738 19.8618 11.0958 20.1678 11.5538L22.1678 14.5538C22.3458 14.8197 22.6378 14.9838 22.9578 14.9998C22.9718 14.9998 22.9878 14.9998 22.9998 14.9998C23.3018 14.9998 23.5898 14.8637 23.7818 14.6237L27.7818 9.62375C28.1258 9.19175 28.0578 8.56375 27.6258 8.21775Z" fill="#21CD47"/>
+              </svg></div>
+              <div class="text-white text-2xl font-semibold font-['General Sans'] tracking-widest">Payment confirmed</div>
+          </div>
+          <div class="w-[414px] grow shrink basis-0 relative">
+              <div class="w-[414px] h-[50px] left-0 top-[35px] absolute text-white text-opacity-70 text-sm font-normal font-['General Sans'] leading-normal tracking-wide">Congratulations! Your payment for Harvest is confirmed and the RUBY will now be reflected in your wallet.</div>
+              <div class="left-0 top-0 absolute text-white text-base font-medium font-['General Sans'] leading-tight tracking-wide">Your payment is Confirmed!</div>
+          </div>
+          <div class="w-7 h-7 p-[2.33px] justify-center items-center inline-flex"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+            <path d="M14.0002 25.6667C7.55684 25.6667 2.3335 20.4433 2.3335 14C2.3335 7.55667 7.55684 2.33333 14.0002 2.33333C20.4434 2.33333 25.6668 7.55667 25.6668 14C25.6597 20.4403 20.4405 25.6595 14.0002 25.6667ZM13.9815 23.3333H14.0002C19.153 23.3282 23.3267 19.1481 23.3242 13.9953C23.3216 8.8425 19.1436 4.66666 13.9908 4.66666C8.83799 4.66666 4.66007 8.8425 4.6575 13.9953C4.65492 19.1481 8.82867 23.3282 13.9815 23.3333ZM11.6668 19.8333L7.00016 15.1667L8.64516 13.5217L11.6668 16.5317L19.3552 8.84333L21.0002 10.5L11.6668 19.8333Z" fill="#21CD47"/>
+          </svg></div>
+      </div>
+
+
+      <div class="submit absolute z-50 fixed left-[30%] top-[30%] w-[474px] h-80 hidden bg-stone-900 rounded-[5px]">
+        <div class="left-[30px] top-[30px] absolute justify-start items-center gap-2.5 inline-flex">
+            <div class="w-8 h-8 relative"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <path d="M15.9998 29.3334C8.63604 29.3334 2.6665 23.3638 2.6665 16C2.6665 8.63622 8.63604 2.66669 15.9998 2.66669C23.3636 2.66669 29.3332 8.63622 29.3332 16C29.325 23.3604 23.3602 29.3252 15.9998 29.3334ZM5.33317 16.2294C5.39626 22.0976 10.188 26.8127 16.0565 26.7814C21.9252 26.7496 26.6658 21.9834 26.6658 16.1147C26.6658 10.246 21.9252 5.47971 16.0565 5.44802C10.188 5.41663 5.39626 10.1317 5.33317 16V16.2294ZM18.6665 22.6667H14.6665V17.3334H13.3332V14.6667H17.3332V20H18.6665V22.6667ZM17.3332 12H14.6665V9.33335H17.3332V12Z" fill="#F74242"/>
+              </svg></div>
+            <div class="text-white text-2xl font-semibold font-['General Sans'] tracking-widest">Warning</div>
+        </div>
+        <div class="w-[414px] h-[147px] left-[30px] top-[82px] absolute text-white text-opacity-70 text-sm font-normal font-['General Sans'] leading-normal tracking-wide">Lottery ticket purchases are final.
+      <br/>Your RUBY will not be returned to you after you spend it to buy tickets.
+      Tickets are only valid for one lottery draw, and will be burned after the draw.
+      Buying tickets does not guarantee you will win anything. Please only participate once you understand the risks.
+      <br/></div>
+        <div class="w-[414px] px-5 py-2 left-[30px] top-[254px] absolute bg-rose-600 rounded-[50px] justify-center items-center gap-2.5 inline-flex">
+            <div class="text-white text-base font-medium font-['General Sans'] leading-tight tracking-wide">I understand</div>
+        </div>
+    </div>
+
+    
+          <div class="flex justify-between gap-5 pb-5 grid sm:grid-cols-1 md:grid-cols-3 ">
+            <div class="w-[33.3%] md:w-[100%] sm:w-[100%] h-[148px] px-5 py-[20.50px] bg-gradient-to-br from-stone-900 to-black rounded-[5px] shadow backdrop-blur-[15px] flex-col justify-center items-start gap-5 inline-flex text-white">
+              <p>Earn</p>
+              <p>305.40%</p>
+              <div class="flex justify-between w-[100%]">
+                <p class="text-white text-opacity-70 text-base font-normal font-['General Sans'] leading-tight tracking-wide">APR in Farms</p>
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M15.0003 6.66669V9.16669H1.66699V10.8334H15.0003V13.3334L18.3337 10L15.0003 6.66669Z" fill="white"/>
+                      </svg>
+                </p>
+              </div>
+            </div>
+    
+            <div class="w-[33.3%] md:w-[100%] sm:w-[100%] h-[148px] px-5 py-[20.50px] bg-gradient-to-br from-stone-900 to-black rounded-[5px] shadow backdrop-blur-[15px] flex-col justify-center items-start gap-5 inline-flex text-white">
+              <p>Earn</p>
+              <p>RUBY, VRT, KALM</p>
+              <div class="flex justify-between w-[100%]">
+                <p  class="text-white text-opacity-70 text-base font-normal font-['General Sans'] leading-tight tracking-wide">In Pools</p>
+                <p><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M15.0003 6.66669V9.16669H1.66699V10.8334H15.0003V13.3334L18.3337 10L15.0003 6.66669Z" fill="white"/>
+                  </svg></p>
+              </div>
+            </div>
+    
+            <div class="w-[33.3%] md:w-[100%] sm:w-[100%] h-[148px] px-5 py-[20.50px] bg-gradient-to-br from-stone-900 to-black rounded-[5px] shadow backdrop-blur-[15px] flex-col justify-center items-start gap-5 inline-flex text-white">
+              <p>Lottery</p>
+              <p>Comming Soon</p>
+              <div class="flex justify-between w-[100%]">
+                <p  class="text-white text-opacity-70 text-base font-normal font-['General Sans'] leading-tight tracking-wide">Stay Tuned!</p>
+                <p><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M15.0003 6.66669V9.16669H1.66699V10.8334H15.0003V13.3334L18.3337 10L15.0003 6.66669Z" fill="white"/>
+                  </svg></p>
+              </div>
+            </div>
+          </div>
+    
+          <section class="flex justify-between text-yellow-900 gap-5 grid sm:grid-cols-1 md:grid-cols-2">
+            <div class="w-[50%] md:w-[100%] sm:w-[100%] h-[210px] pl-5  bg-gradient-to-br from-stone-900 to-black rounded-[5px] shadow backdrop-blur-[15px] flex flex-col justify-around">
+              <p class="w-[258px] text-white text-2xl font-semibold font-['General Sans'] tracking-widest">Ruby Statistics</p>
+              <p class="w-[303px] text-white text-opacity-70 text-sm font-normal font-['General Sans'] leading-tight tracking-wide">Sed nullam viverra fusce id at amet donec.</p>
+              
+    
+              <div class="flex justify-between w-[100%]">
+                <p class="w-[149px] text-white text-opacity-70 text-base font-normal font-['General Sans'] leading-tight tracking-wide">Total RUBY Supply</p>
+                <p class="w-28 text-white text-xl font-medium font-['General Sans'] leading-tight tracking-wide">175,329,827</p>
+              </div>
+    
+              <div class="flex justify-between w-[100%]">
+                <p class="w-[149px] text-white text-opacity-70 text-base font-normal font-['General Sans'] leading-tight tracking-wide">Total RUBY Burned</p>
+                <p class="w-28 text-white text-xl font-medium font-['General Sans'] leading-tight tracking-wide">175,329,827</p>
+              </div>
+    
+              <div class="flex justify-between w-[100%]">
+                <p class="w-[132.73px] text-white text-opacity-70 text-base font-normal font-['General Sans'] leading-tight tracking-wide">New RUBY/block</p>
+                <p class="w-28 text-white text-xl font-medium font-['General Sans'] leading-tight tracking-wide">20</p>
+              </div>
+            </div>
+    
+            <div class="w-[50%] md:w-[100%] sm:w-[100%] h-[210px] pl-5 pr-[94px] pt-5 pb-[18.50px] bg-gradient-to-br from-stone-900 to-black rounded-[5px] shadow backdrop-blur-[15px] flex-col justify-center items-start gap-[31.50px] inline-flex">
+              <p class="w-[410px] text-white text-2xl font-semibold font-['General Sans'] tracking-widest">Total Value Locked (TVL)</p>
+              <p class="w-[303px] text-white text-opacity-70 text-sm font-normal font-['General Sans'] leading-tight tracking-wide">Sed nullam viverra fusce id at amet donec.</p>
+              <p class="w-[154px] text-white text-xl font-medium font-['General Sans'] tracking-wide" >$6,506,937,559</p>
+              <div class="flex">
+                <p class="text-white text-sm font-normal font-['General Sans'] leading-tight tracking-wide">Learn More</p>
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                        <path d="M14.1673 17.1666H5.00065C4.08018 17.1666 3.33398 16.4205 3.33398 15.5V6.33331C3.33398 5.41284 4.08018 4.66665 5.00065 4.66665H8.334V6.33331H5.00065V15.5H14.1673V12.1666H15.834V15.5C15.834 16.4205 15.0878 17.1666 14.1673 17.1666ZM9.75067 11.9225L8.57567 10.7441L13.8198 5.49998H10.834V3.83331H16.6673V9.66665H15.0007V6.67915L9.75067 11.9225Z" fill="white"/>
+                      </svg>
+                </p>
+              </div>
+            </div>
+          </section>
+    </section>
+    
+
+      <footer class="footer sm:hidden md:block flex md:flex justify-between p-4 bottom-0 z-10">
+        <div class="flex gap-3">
+            <p class="text-white text-sm font-normal font-['General Sans'] leading-tight tracking-wide">Copyright @ Rubyswap 2021</p>
+            <a href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M14.1668 17.5H5.8335V15.8333H7.50016V15H2.50016C1.57969 15 0.833496 14.2538 0.833496 13.3333V4.16667C0.833496 3.24619 1.57969 2.5 2.50016 2.5H17.5002C18.4207 2.5 19.1668 3.24619 19.1668 4.16667V13.3333C19.1668 14.2538 18.4207 15 17.5002 15H12.5002V15.8333H14.1668V17.5ZM2.50016 4.16667V13.3333H17.5002V4.16667H2.50016Z" fill="white"/>
+                  </svg>
+            </a>
+            <a href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M16.6665 19.1666H3.33317C2.4127 19.1666 1.6665 18.4205 1.6665 17.5V2.49998C1.6665 1.5795 2.4127 0.833313 3.33317 0.833313H16.6665C17.587 0.833313 18.3332 1.5795 18.3332 2.49998V17.5C18.3332 18.4205 17.587 19.1666 16.6665 19.1666ZM3.33317 2.49998V17.5H16.6665V2.49998H3.33317ZM9.99984 16.6666C9.53959 16.6666 9.1665 16.2936 9.1665 15.8333C9.1665 15.3731 9.53959 15 9.99984 15C10.4601 15 10.8332 15.3731 10.8332 15.8333C10.8332 16.2936 10.4601 16.6666 9.99984 16.6666Z" fill="white" fill-opacity="0.5"/>
+                  </svg>
+            </a>
+            <a href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M13.9585 19.1666H5.62516C4.70469 19.1666 3.9585 18.4205 3.9585 17.5V2.49998C3.9585 1.5795 4.70469 0.833313 5.62516 0.833313H13.9585C14.879 0.833313 15.6252 1.5795 15.6252 2.49998V17.5C15.6252 18.4205 14.879 19.1666 13.9585 19.1666ZM5.62516 2.49998V17.5H13.9585V2.49998H5.62516ZM9.79183 16.6666C9.33158 16.6666 8.9585 16.2936 8.9585 15.8333C8.9585 15.3731 9.33158 15 9.79183 15C10.2521 15 10.6252 15.3731 10.6252 15.8333C10.6252 16.2936 10.2521 16.6666 9.79183 16.6666Z" fill="white" fill-opacity="0.5"/>
+                  </svg>
+            </a>
+        </div>
+
+        <div class="flex gap-3">
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                <path d="M1.66846 10.5016C1.66943 14.6011 4.65047 18.0917 8.69933 18.7341V12.91H6.58512V10.5016H8.70183V8.66835C8.60717 7.79963 8.90391 6.93385 9.5115 6.3058C10.1191 5.67775 10.9746 5.35253 11.846 5.41835C12.4714 5.42846 13.0952 5.48416 13.7127 5.58502V7.63418H12.6593C12.2967 7.58669 11.9321 7.70646 11.6682 7.95974C11.4044 8.21303 11.2699 8.57242 11.3027 8.93665V10.5016H13.6118L13.2427 12.9108H11.3027V18.7341C15.6813 18.0421 18.7518 14.0431 18.2897 9.63423C17.8276 5.22532 13.9945 1.94996 9.5675 2.181C5.14042 2.41204 1.66917 6.06861 1.66846 10.5016Z" fill="white"/>
+              </svg></a>
+
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                <path d="M10.8333 18H7.5V8H10.8333V9.66667C11.5438 8.76271 12.6213 8.22381 13.7708 8.1975C15.838 8.20898 17.506 9.89117 17.5 11.9583V18H14.1667V12.375C14.0333 11.4438 13.2348 10.753 12.2942 10.755C11.8827 10.768 11.4943 10.9482 11.2187 11.2538C10.943 11.5596 10.8038 11.9644 10.8333 12.375V18ZM5.83333 18H2.5V8H5.83333V18ZM4.16667 6.33333C3.24619 6.33333 2.5 5.58714 2.5 4.66667C2.5 3.74619 3.24619 3 4.16667 3C5.08714 3 5.83333 3.74619 5.83333 4.66667C5.83333 5.10869 5.65774 5.53262 5.34517 5.84517C5.03262 6.15774 4.60869 6.33333 4.16667 6.33333Z" fill="white"/>
+              </svg></a>  
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                <path d="M16.6625 6.07331C17.4095 5.62671 17.9685 4.92351 18.235 4.09497C17.5331 4.51147 16.765 4.80487 15.9642 4.96247C14.8538 3.78791 13.0946 3.50207 11.6695 4.26468C10.2444 5.02729 9.50624 6.64955 9.86749 8.22497C6.99218 8.08061 4.31331 6.7224 2.49751 4.48831C1.54988 6.12282 2.03414 8.21229 3.60418 9.26331C3.03644 9.24506 2.48128 9.09131 1.98501 8.81497C1.98501 8.82997 1.98501 8.84498 1.98501 8.85998C1.98534 10.5626 3.18532 12.0292 4.85418 12.3666C4.32756 12.5099 3.77518 12.531 3.23918 12.4283C3.70851 13.8844 5.05047 14.8819 6.58001 14.9116C5.3132 15.9059 3.74874 16.4451 2.13835 16.4425C1.8529 16.4429 1.56769 16.4265 1.28418 16.3933C2.9195 17.4441 4.82282 18.0019 6.76668 18C9.47108 18.0186 12.07 16.9524 13.9822 15.04C15.8945 13.1276 16.9605 10.5285 16.9417 7.82414C16.9417 7.66914 16.9381 7.51497 16.9308 7.36164C17.6312 6.85547 18.2357 6.22843 18.7158 5.50997C18.0633 5.79919 17.3712 5.98907 16.6625 6.07331Z" fill="white"/>
+              </svg></a>
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                <path d="M10.0048 16.3434H9.98817C9.93651 16.3434 4.76734 16.3334 3.46317 15.9792C2.74603 15.786 2.18597 15.2256 1.99317 14.5084C1.75866 13.1854 1.64542 11.8436 1.65484 10.5C1.64878 9.15419 1.7651 7.81061 2.00234 6.48585C2.20043 5.76795 2.75803 5.20498 3.47401 5.00002C4.74234 4.66669 9.76901 4.66669 9.98234 4.66669H9.99984C10.0523 4.66669 15.2348 4.67669 16.5257 5.03085C17.2413 5.22503 17.8003 5.78427 17.994 6.50002C18.236 7.82797 18.3496 9.1761 18.3332 10.5259C18.339 11.87 18.2224 13.2119 17.9848 14.535C17.7896 15.2514 17.2292 15.8105 16.5123 16.0042C15.2457 16.34 10.2182 16.3434 10.0048 16.3434ZM8.33817 8.00419L8.33401 13.0042L12.6773 10.5042L8.33817 8.00419Z" fill="white"/>
+              </svg></a>
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                <path d="M10.0218 2.16669C5.94428 2.16616 2.46835 5.12335 1.81551 9.14827C1.16266 13.1733 3.52567 17.0775 7.39434 18.3659C7.81101 18.4409 7.96018 18.185 7.96018 17.965C7.96018 17.7675 7.95351 17.2442 7.95101 16.5484C5.63851 17.0484 5.15018 15.4334 5.15018 15.4334C4.99793 14.9309 4.67065 14.4994 4.22768 14.2175C3.47768 13.7017 4.28518 13.7134 4.28518 13.7134C4.81907 13.7865 5.28897 14.1029 5.55768 14.57C5.78512 14.9836 6.1683 15.2892 6.62209 15.4189C7.07588 15.5486 7.56269 15.4917 7.97434 15.2609C8.01303 14.8392 8.20062 14.4451 8.50349 14.1492C6.65851 13.94 4.71851 13.2267 4.71851 10.0409C4.70827 9.21685 5.01425 8.42027 5.57351 7.81502C5.32047 7.09778 5.35027 6.31106 5.65684 5.61502C5.65684 5.61502 6.35434 5.39085 7.94184 6.46585C9.30341 6.09253 10.7403 6.09253 12.1018 6.46585C13.6902 5.39002 14.3868 5.61502 14.3868 5.61502C14.6948 6.31074 14.7247 7.098 14.4702 7.81502C15.0315 8.42021 15.3372 9.21885 15.3235 10.0442C15.3235 13.2384 13.3818 13.94 11.5302 14.1459C11.9296 14.5543 12.1345 15.1144 12.0927 15.6842C12.0927 16.7959 12.0827 17.6925 12.0827 17.965C12.0827 18.1875 12.231 18.4459 12.6552 18.3642C16.5222 17.0737 18.8827 13.1692 18.2285 9.14527C17.5743 5.1214 14.0986 2.16575 10.0218 2.16669Z" fill="white"/>
+              </svg></a>
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                <path d="M16.3542 18.8333L14.6525 17.3333L13.6933 16.4417L12.6792 15.5L13.0958 16.9658H4.12251C3.22386 16.9626 2.49771 16.232 2.50001 15.3333V4.63083C2.49862 3.73282 3.22451 3.00322 4.12251 3H14.7317C15.6297 3.00322 16.3556 3.73282 16.3542 4.63083V18.8333ZM12.5833 11.7567C12.232 12.2279 11.7261 12.5607 11.1542 12.6967C11.3892 12.9967 11.6725 13.3358 11.675 13.3392C12.6309 13.3593 13.5361 12.9098 14.0975 12.1358C14.0687 10.5314 13.6791 8.95408 12.9575 7.52083C12.3222 7.02231 11.5488 6.73136 10.7425 6.6875H10.7333L10.6225 6.81417C11.3427 7.00763 12.0144 7.35 12.5942 7.81917C11.8565 7.41368 11.0471 7.15554 10.2108 7.05917C9.67933 7.00014 9.14275 7.00545 8.6125 7.075C8.575 7.07574 8.53766 7.07964 8.50083 7.08667H8.4775C7.85613 7.15821 7.24985 7.32693 6.68084 7.58667C6.39584 7.7175 6.22084 7.8125 6.21334 7.81583C6.20584 7.81917 6.21334 7.81583 6.21334 7.81C6.82825 7.32637 7.53765 6.97692 8.29584 6.78417L8.2125 6.68917H8.20751C7.40117 6.73313 6.62786 7.02407 5.99251 7.5225C5.26826 8.95475 4.87847 10.5328 4.85251 12.1375C5.40696 12.9166 6.31334 13.3679 7.26917 13.3408C7.26917 13.3408 7.56751 12.9775 7.8 12.6833C7.24251 12.5433 6.75127 12.2132 6.41084 11.75C6.41667 11.7542 6.49917 11.81 6.63251 11.8833C6.64146 11.8938 6.65254 11.9024 6.66501 11.9083C6.67556 11.9157 6.68671 11.9221 6.69834 11.9275C6.71152 11.9335 6.72408 11.9408 6.73584 11.9492C6.92176 12.0517 7.11475 12.1408 7.31334 12.2158C7.6909 12.3653 8.08145 12.4797 8.48 12.5575C8.829 12.6233 9.18325 12.6568 9.53833 12.6575C9.87125 12.6575 10.2035 12.6268 10.5308 12.5658C10.9251 12.4966 11.3101 12.3825 11.6783 12.2258C11.9965 12.1035 12.3 11.9461 12.5833 11.7567ZM10.885 11.4008C10.5224 11.4324 10.1777 11.2382 10.0167 10.9118C9.85591 10.5854 9.91183 10.1937 10.1577 9.92533C10.4037 9.65708 10.7891 9.56725 11.1282 9.69917C11.4674 9.83108 11.6908 10.1578 11.6908 10.5217C11.7092 10.9866 11.349 11.3793 10.8842 11.4008H10.885ZM7.99501 11.4008C7.53905 11.3611 7.18914 10.9793 7.18914 10.5217C7.18914 10.064 7.53905 9.68225 7.99501 9.6425C8.20505 9.64317 8.40583 9.72883 8.55166 9.88C8.71716 10.0518 8.80716 10.2824 8.80166 10.5208C8.821 10.9866 8.45983 11.3801 7.99417 11.4008H7.99501Z" fill="white"/>
+              </svg></a>
+            
+        </div>
+      </footer>
+    </section>
+
+   
+
+    <script src="/javascript/index.js"></script>
+  </body>
+</html>
